@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { getLista, adicionaNaLista, removeDaLista, limpaLista } from '../lista.js';
+import { getLista, adicionaNaLista, removeDaLista, limpaLista } from '../main.js';
 
 test('Deve ter uma função getLista() exportada no módulo', () => {
   expect(getLista).toBeTypeOf('function');
